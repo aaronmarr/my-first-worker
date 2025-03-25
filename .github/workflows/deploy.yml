@@ -17,4 +17,4 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           npm install --save-dev wrangler
-          npx wrangler worker deploy public --project-name=my-first-worker
+          npx wrangler deploy
