@@ -10,6 +10,6 @@
 
 export default {
 	async fetch(request, env, ctx) {
-		return new Response('Hello worker!');
+		return new Response('Deployed on tag push!');
 	},
 };
